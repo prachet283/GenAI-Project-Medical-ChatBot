@@ -24,7 +24,7 @@ embedding = HuggingFaceEndpointEmbeddings(
 pinecone_api_key = PINECONE_API_KEY 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
-
+# keep same indexname
 
 index_name = "medical-chatbot"
 
